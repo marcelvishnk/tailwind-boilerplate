@@ -1,0 +1,24 @@
+{
+    "name": "kratos-tailwind-html",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "It Works",
+        "build": "postcss build ./src/app.css -o ./dist/css/styles.css",
+        "watch": "postcss build ./src/app.css -o ./dist/css/styles.css --watch",
+        "production": "cross-env NODE_ENV=production postcss ./src/app.css -o ./dist/css/styles.css"
+    },
+    "keywords": [],
+    "author": "Kratos",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^10.4.0",
+        "postcss": "^8.4.4",
+        "tailwindcss": "^2.2.19"
+    },
+    "dependencies": {
+        "cross-env": "^7.0.3",
+        "postcss-cli": "^9.0.2"
+    }
+}
